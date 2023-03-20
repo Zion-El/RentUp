@@ -11,8 +11,9 @@ const Header = () => {
         return({
             borderBottom: isActive ? "5px solid #27ae60" : "none",
             borderRadius: "4px",
-            color: isActive ? "#27ae60" : "#000",
-            transition: ".2s ease-in"
+            color: isActive ? "#fff" : "#000",
+            transition: ".2s ease-in",
+            fontWeight: "500"
         }
         )
     }

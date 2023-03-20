@@ -10,7 +10,7 @@ const Price = () => {
   return (
     <div className='pricetab'>
         <Header/>
-        <SemiHero title="Blog" description="Blog Grid - Our Blogs" cover={Image}/>
+        <SemiHero title="30 days money back guarantee" description="No Extra Fee. Friendly Support" cover={Image}/>
         <Pricing/>
         <Footer/>
     </div>

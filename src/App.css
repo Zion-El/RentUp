@@ -209,6 +209,9 @@ img{
   .contain{
     padding: 0 1rem;
   }
+  .padding{
+    margin-top: 50px;
+  }
   .grid3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
