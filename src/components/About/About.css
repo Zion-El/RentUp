@@ -8,7 +8,7 @@
     margin-bottom: 30px;
 }
 
-.about p{
+.about .left p{
     font-size: 15px;
     padding-right: 30px;
     margin-bottom: 20px;
@@ -22,10 +22,19 @@
     .about .right{
         display: none;
     }
-    .about p{
+    .about .left p{
         padding: 0;
     }
     .about .contain img{
         margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about .mtop{
+        margin-top: 100px;
+    }
+    .about .btn2{
+        font-size: 13px;
     }
 }

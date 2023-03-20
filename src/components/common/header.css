@@ -90,13 +90,12 @@ header .toggle{
     .small li{
         padding: 10px 0;
         width: 100%;
+        color: #fff;
     }
     .small li:hover{
         background-color: aquamarine;
     }
-    .small li .link{
-        color: #fff;
-    }
+
     .toggle button{
         padding: 10px 20px;
     }

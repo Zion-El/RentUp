@@ -16,7 +16,7 @@
 .price h3{
     font-size: 22px;
 }
-.price h1{
+.price .box h1{
     font-size: 60px;
 }
 .price span{
@@ -54,9 +54,9 @@
     .price h3{
         font-size: 15px;
     }
-    .price h1{
+    /* .price h1{
         font-size: 40px;
-    }
+    } */
     .price span{
         font-size: 20px;
     }
@@ -93,6 +93,6 @@
         padding: 30px;
         border-radius: 10px;
         margin-bottom: 50px;
-        width: 100%;
+        width: 80%;
     }
 }

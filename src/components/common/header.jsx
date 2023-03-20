@@ -39,7 +39,7 @@ const Header = () => {
         </div>
         <div className="toggle">
             <button onClick={() => setClicked(!clicked)}>
-                <i className={!clicked ? 'fa fa-bars' : ''}></i>
+                <i className={!clicked ? 'fa fa-bars' : 'fa fa-times'}></i>
             </button>
         </div>
     </header>

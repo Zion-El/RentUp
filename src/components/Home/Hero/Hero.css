@@ -104,3 +104,34 @@ form .last-box{
         opacity: .5;
     }
 }
+@media screen and  (max-width: 375px) {
+    .hero-box{
+        top: 50%;
+    }
+    .hero-form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .hero .box{
+        border-left: none;
+        width: 100%;
+        padding: 5px;
+    }
+    form input{
+        width: 100%;
+    }
+    .hero-form .last-box{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-form .last-box button{
+        margin-left: 20px;
+    }
+    form{
+        margin-top: 20px;
+        opacity: .5;
+    }
+}
