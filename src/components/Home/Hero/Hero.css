@@ -1,0 +1,106 @@
+.hero{
+    background-image: url("../../../../public/images//banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.hero h1{
+    color: #fff;
+}
+.hero p{
+    color: #fff;
+    opacity: .8;
+}
+.hero-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.hero-form{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.hero .box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: start;
+    padding: 15px;
+    border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+form{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 0 20px;
+    opacity: .8;
+}
+
+form input{
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+form span{
+    font-size: 14px;
+    color: grey;
+}
+
+input::placeholder{
+    font-size: 17px;
+    color: black;
+}
+
+.box:nth-child(1){
+    border-left: none;
+}
+form .last-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and  (max-width: 800px) {
+    .hero-box{
+        top: 60%;
+    }
+    .hero-form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .hero .box{
+        border-left: none;
+        width: 100%;
+        padding: 5px;
+    }
+    form input{
+        width: 100%;
+    }
+    .hero-form .last-box{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-form .last-box button{
+        margin-left: 20px;
+    }
+    form{
+        margin-top: 20px;
+        opacity: .5;
+    }
+}

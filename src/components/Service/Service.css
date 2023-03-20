@@ -1,0 +1,13 @@
+.service .heading h1{
+    display: none;
+}
+.service .heading p{
+    display: none;
+}
+.service .background{
+    padding: 40px 0;
+    margin-top: 3.8rem;
+}
+.service .mtop{
+    margin-top: 0;
+}

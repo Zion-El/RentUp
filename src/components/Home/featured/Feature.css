@@ -1,0 +1,27 @@
+.featured .box{
+    box-shadow: 0 0 20px 0 rgba(121 121 138 /18%);
+    border-radius: 6px;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+
+.featured img{
+    width: 65px;
+    height: 65px;
+    margin: auto;
+}
+
+@media screen and (max-width:800px) {
+    .featured .grid5{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:375px) {
+    .featured .box{
+        padding: 10px;
+    }
+}

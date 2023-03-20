@@ -1,0 +1,65 @@
+.recent .text{
+    padding: 30px;
+}
+.recent .category span{
+    padding: 4px 15px;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.recent .category i{
+    font-style: 20px;
+    color: #bec7d8;
+}
+
+.recent p{
+    color: #bec7d8;
+}
+.recent .button{
+    border-top: 1px solid #efe8f3;
+    padding: 10px 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .recent .text{
+        padding: 13px;
+    }
+    .recent p{
+        font-size: 10px;
+    }
+    .recent h4{
+        font-size: 15px;
+    }
+    .recent .button{
+        padding: 13px;
+        font-size: 15px;
+    }
+    .recent .button .btn2{
+        padding: 5px;
+        font-size: 15px;
+    }
+    .recent .button span{
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .recent h4{
+        font-size: 13px;
+    }
+    .recent .button{
+        font-size: 13px;
+    }
+    .recent .button .btn2{
+        font-size: 10px;
+    }
+    .recent .button span{
+        font-size: 10px;
+    }
+    .recent .category span{
+        padding: 4px 8px;
+    }
+}
